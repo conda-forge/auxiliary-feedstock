@@ -9,8 +9,6 @@ package:
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/auxiliary-{{ version }}.tar.gz
   sha256: f0cfa530f61bf32b969496d9b114e53640f01e532c75df6b18ce918d58bd98c7
-  patches:
-    - remove_pathlib.patch
 
 build:
   noarch: python
