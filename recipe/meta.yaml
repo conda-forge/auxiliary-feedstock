@@ -29,6 +29,7 @@ requirements:
     - tifffile >=2023.8.25
     - path >=17.0.0
     - pillow >=10.0.0
+    - simpleitk >=2.2.1
 
 test:
   imports:
