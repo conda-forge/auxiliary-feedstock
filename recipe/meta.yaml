@@ -1,5 +1,5 @@
 {% set name = "auxiliary" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/auxiliary-{{ version }}.tar.gz
-  sha256: ed4886178c6aa2eca08fbd5b95a7742b89d9fc3b9f5a2250fb7954134315d4b0
+  sha256: c8c08f89e706efe7d78f7e13613e8731c4f05ac942420110ab22a6ecf5489633
 
 build:
   noarch: python
